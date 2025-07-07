@@ -98,7 +98,7 @@ am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am_stiff_OBJECTS = datamem.$(OBJEXT) field.$(OBJEXT) image.$(OBJEXT) \
 	main.$(OBJEXT) makeit.$(OBJEXT) prefs.$(OBJEXT) tag.$(OBJEXT) \
-	threads.$(OBJEXT) tiff.$(OBJEXT) xml.$(OBJEXT)
+	threads.$(OBJEXT) tiff.$(OBJEXT) xml.$(OBJEXT) globals.$(OBJEXT)
 stiff_OBJECTS = $(am_stiff_OBJECTS)
 stiff_DEPENDENCIES = $(srcdir)/fits/libfits.a
 DEFAULT_INCLUDES = -I.@am__isrc@ -I$(top_builddir)

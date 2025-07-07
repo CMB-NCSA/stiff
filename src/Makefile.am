@@ -29,7 +29,7 @@
 SUBDIRS			= fits
 bin_PROGRAMS		= stiff
 stiff_SOURCES		= datamem.c field.c image.c main.c makeit.c prefs.c \
-			  tag.c threads.c tiff.c xml.c \
+			  tag.c threads.c tiff.c xml.c globals.c \
 			  datamem.h define.h field.h globals.h image.h \
 			  key.h prefs.h preflist.h tag.h threads.h tiff.h \
 			  types.h xml.h
